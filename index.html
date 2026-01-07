@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Explain It</title>
-</head>
-<body>
-
-<h2>Explain It AI</h2>
-
-<input id="question" placeholder="Ask a question" />
-<br><br>
-
-<select id="level">
-  <option>Elementary</option>
-  <option>Middle School</option>
-  <option>High School</option>
-</select>
-<br><br>
-
-<button onclick="send()">Explain</button>
-
-<pre id="output"></pre>
-
-<script src="script.js"></script>
-</body>
+    <head>
+    <title>Explain It AI</title>
+    <link rel="stylesheet" href="style.css">
+    </head>      
+    <body>
+    <div class="container">
+        <h1>Explain It AI</h1>
+        <p class="subtitle">Understand anything, at your level.</p>
+    
+        <input id="question" placeholder="Ask a question" />
+    
+        <select id="level">
+        <option>Elementary</option>
+        <option>Middle School</option>
+        <option>High School</option>
+        </select>
+    
+        <button onclick="send()">Explain</button>
+    
+        <pre id="output"></pre>
+    </div>
+    
+    <script src="script.js"></script>
+    </body>
+      
 </html>
