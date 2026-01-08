@@ -27,7 +27,7 @@ Explain It is a web application that helps users understand topics at different 
 ---
 
 ## 📂 Project Structure
-
+```
 explain-it-ai/
 ├── index.html # Frontend UI
 ├── style.css # UI styling
@@ -38,7 +38,7 @@ explain-it-ai/
 └── README.md
 
 ---
-
+```
 ## ⚙️ How It Works
 
 1. The user enters a question and selects a learning level.
